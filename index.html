@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Meta, title, CSS, favicons, etc. -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>AMSA </title>
+	
+	<!-- Styles -->
+	<link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='assets/css/animate.min.css'>
+	<link rel='stylesheet' href="assets/css/font-awesome.min.css"/>
+	<link rel='stylesheet' href="assets/css/style.css"/>
+	
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+			
+	<!-- Favicon -->
+	<link rel = "icon" href = "https://media.geeksforgeeks.org/wp-content/cdn-uploads/gfg_200X200.png" 
+			type = "image/x-icon"> 
+	<link rel="shortcut icon" href="#">
+	<style>
+		
+	nav ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+nav ul li {
+	display:inline-block;
+	background-color: #f2e0c2;
+	}
+nav a {
+	display:block;
+	padding:0 10px;	
+	color:#22242e;
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+nav a:hover { 
+	background-color: rgba(211, 14, 0);
+	color:#f2e0c2;
+}
+/* Fisrt level Dropdown */
+nav ul ul li {
+	width:130px;
+	float:none;
+	display:list-item;
+	position: relative;
+	
+}
+/* Second, Third and more levels	*/
+nav ul ul ul li {
+	position: relative;
+	top:-60px; 
+	left:130px;
+}
+/* Hide Dropdowns by Default */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+	
+}
+	</style>
+	
+</head>
+<body>
+<!-- Begin Hero Bg -->
+<div id="parallax">
+</div>
+<!-- End Hero Bg
+	================================================== -->
+<!-- Start Header
+	================================================== -->
+<header id="header" class="navbar navbar-inverse navbar-fixed-top" role="banner" style="background-color:#f2e0c2;">
+<div class="container">
+	<div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<!-- Your Logo -->
+		<div class="logo">
+		
+		<a href="#hero" class="navbar-brand"><span class="glyphicon glyphicon-education"></span>AMSA<span class="lighter">KYRGYZSTAN</span></a>
+	</div>
+	</div>
+	<!-- Start Navigation -->
+	<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+	<ul class="nav navbar-nav">
+		<li>
+		<a href="#hero">Home<span class=""></span></a>
+		</li>
+		<li>
+		<a href="#about">About Us<span class=""></span></a>
+		</li>
+		<li>
+		<a href="#gallery">What We Do<span class=""></span></a>
+		</li>
+		<li>
+		<a href="#slider">News<span class=""></span></a>
+		</li>
+		<li>
+		<a href="#faq">FAQ<span class=""></span></a>
+		</li>
+		<li>
+		<a href="#contactarea">Contact<span class=""></span></a>
+		</li>
+	
+			<li><a href="#">Join Us<span class="glyphicon glyphicon-option-vertical"></span></a>
+				<!-- First Tier Drop Down -->
+				
+				<ul>
+					<li><p><a href="#">Membership</a></p></li>
+					<li><p><a href="#">Sponser Us</a></p></li>
+				</ul> 
+			       
+				</li>
+	</ul>
+	</nav>
+</div>
+</header>
+
+<!-- Intro
+	================================================== -->
+<section id="hero" class="section">
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+			<div class="herotext">
+				<h1 class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="0.1s"><span class="glyphicon glyphicon-education"></span>AMSA <span class="lighter">KYRGYZSTAN</span></h1>
+				<p class="lead wow zoomIn" data-wow-duration="2s" data-wow-delay="0.5s">
+					When we give cheerfully and accept gratefully, everyone is blessed.
+				</p>
+				<p>
+					<a href="#" class="btn btn-default btn-lg wow fadeInLeft" role="button"> View Gallery </a> &nbsp; <a href="#" class="btn btn-default btn-lg wow fadeInRight" role="button">Find a Cause</a>
+				</p>
+			</div>
+		</div>
+		<div class="col-md-7">
+		</div>
+	</div>
+</div>
+</section>
+<!-- About
+	================================================== -->
+<section id="about" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/1.jpg);">
+<div class="wrapsection">
+	<div class="parallax-overlay" style="background-color: #22242e;opacity:0.9;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<!-- Title -->
+				<div class="maintitle">
+                    <h3 class="section-title" style="color: #f2e0c2;"><strong>ABOUT US <span class="lighter"></span> </strong>   </h3>
+					<!--<p class="lead">
+						Mentum lectus id turpis suscipit, ut egestas magna volutpat. Donec a purus tellus. Nunc ut dolor eu est gravida auctor quis vitae sapien.
+					</p> -->
+				</div>
+			</div>
+			<!--<div class="col-md-4 col-sm-6">
+				<div class="service-box wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">
+					<img src="http://themepush.com/demo/runcharity/assets/img/dummy.jpg" alt="">
+					<h3>August 7, 2015 <br/>Square Garden</h3>
+					<div class="text-left">
+						<p>
+							I will place all the necessary content for this event here, including where they can register, join, attend &amp; so on.
+						</p>
+						<p>
+							If not enough room, I will link to learn more, a new event page dedicated.
+						</p>
+						<p>
+							Yap. Really looking goody awesome!
+						</p>
+						<p class="text-center">
+							<button type="button" class="btn btn-info btn-md"><a href="#">Learn More</a></button>
+						</p>
+					</div>
+				</div>
+            </div>-->
+            <div class="col-md-4 col-sm-6">
+				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.1s" style="background-color: #f2e0c2;">
+					<span class="glyphicon glyphicon-eye-open"></span>
+					<h3 style= "color: #c3332b;">AMSA-KG At a Glance</h3>
+					<button type="button" class="btn btn-info btn-md" style="background-color: #f2e0c2;"><a href="http://localhost:8000/AMSA%20kyrg/theme-AMSA/AtAGlance.html" style="color: #22242e;">Learn More</a></button>
+				</div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.1s" style="background-color: #f2e0c2;">
+					<span class="glyphicon glyphicon-user"></span>
+					<h3 style= "color: #c3332b;">Our Leadership</h3>
+					<button type="button" class="btn btn-info btn-md" style="background-color:#f2e0c2;"><a href="http://localhost:8000/AMSA%20kyrg/theme-AMSA/OurLeadership.html" style="color: #22242e;">Learn More</a></button>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.1s" style="background-color:#f2e0c2;">
+					<span class="glyphicon glyphicon-list-alt"></span>
+					<h3 style= "color: #c3332b;">President's Message</h3>
+					<button type="button" class="btn btn-info btn-md" style="background-color:#f2e0c2;"><a href="http://localhost:8000/AMSA%20kyrg/theme-AMSA/PresidentsMessage.html" style="color: #22242e;">Learn More</a></button>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.2s" style="background-color: #f2e0c2;">
+					<span class="glyphicon glyphicon-tree-deciduous"></span>
+					<h3 style= "color: #c3332b;">Our Affiliations</h3>
+					<button type="button" class="btn btn-info btn-md" style="background-color:#f2e0c2;"><a href="http://localhost:8000/AMSA%20kyrg/theme-AMSA/OurAffiliations.html"style="color: #22242e;">Learn More</a></button>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.3s" style="background-color:#f2e0c2;">
+					<span class="glyphicon glyphicon-heart"></span>
+					<h3 style= "color: #c3332b;">Our Members</h3>
+					<button type="button" class="btn btn-info btn-md" style="background-color: #f2e0c2;"><a href="http://localhost:8000/AMSA%20kyrg/theme-AMSA/OurMembers.html" style="color: #22242e;">Learn More</a></button>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="service-box wow flipInY" data-wow-duration="1.5s" data-wow-delay="0.4s"style="background-color: #f2e0c2;">
+					<span class="glyphicon glyphicon-usd"></span>
+					<h3 style= "color: #c3332b;">Our Partners</h3>
+					<button type="button" class="btn btn-info btn-md" style="background-color: #f2e0c2;"><a href="http://localhost:8000/AMSA%20kyrg/theme-AMSA/OurPartners.html" style="color: #22242e;">Learn More</a></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Random
+	================================================== -->
+<section class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/3.jpg);">
+	<div class="wrapsection">
+	<div class="parallax-overlay"></div>
+	<div class="container">
+		<div class="row">
+		<div class="item">
+							<blockquote>
+								<p class="lead">
+									Charity is a supreme virtue, and the great channel through which the mercy of God is passed onto mankind.
+								</p>
+								<small>Conrad Hilton</small>
+							</blockquote>
+						</div>
+		</div>
+	</div>
+	</div>
+</section>
+<!-- Gallery
+	================================================== -->
+<section id="gallery" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/2.jpg);">
+<div class="wrapsection">
+	<div class="parallax-overlay" style="background-color:#22242e;opacity:0.9;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 sol-sm-12">
+				<div class="maintitle">
+					<h3 class="section-title" style="color: #f2e0c2;">What We Do</h3><br>
+					<!--<p class="lead wow flipInX">
+						Have a look at your past events gallery, see how much fun we have while helping people all over the world. Join our community today!
+					</p>-->
+					<ul class="nav nav-pills nav-fill" >
+						<li class="nav-item">
+						  <a class="nav-link active" href="#" style= "color: #c3332b;"><b>Standing Committees</b></a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#"style= "color: #c3332b;"><b>Activities</b></a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#"style= "color: #c3332b;"><b>Meetings</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"style= "color: #c3332b;"><b>Trainings</b></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"style= "color: #c3332b;"><b>Calender</b></a>
+						</li>
+					  </ul>
+				</div>
+			</div>
+			
+			<div class="col-md-4">
+				<a href="https://ununsplash.imgix.net/photo-1429277158984-614d155e0017?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
+					<img src="https://ununsplash.imgix.net/photo-1429277158984-614d155e0017?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+					<div class="description">
+						<span class="caption">This is <b>awesome</b></span> 
+						<span class="camera"><i class="fa fa-camera"></i></span>
+						<div class="clearfix"></div>
+					</div>			
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://unsplash.imgix.net/uploads/14115408840644deb16b0/2dc933e3?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
+				<img src="https://unsplash.imgix.net/uploads/14115408840644deb16b0/2dc933e3?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+					<div class="description">
+						<span class="caption">Great <b>marathon</b></span> 
+						<span class="camera"><i class="fa fa-link"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://ununsplash.imgix.net/photo-1429277096327-11ee3b761c93?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
+				<img src="https://ununsplash.imgix.net/photo-1429277096327-11ee3b761c93?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+					<div class="description">
+						<span class="caption">Running <b>miles</b></span> 
+						<span class="camera"><i class="fa fa-heart"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://unsplash.imgix.net/uploads/141327328038701afeede/eda0fb7c?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
+				<img src="https://unsplash.imgix.net/uploads/141327328038701afeede/eda0fb7c?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+					<div class="description">
+						<span class="caption">Young <b>volunteers</b></span> 
+						<span class="camera"><i class="fa fa-tachometer"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://ununsplash.imgix.net/photo-1418225043143-90858d2301b4?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
+				<img src="https://ununsplash.imgix.net/photo-1418225043143-90858d2301b4?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+					<div class="description">
+						<span class="caption">Charity <b>concerts</b></span> 
+						<span class="camera"><i class="fa fa-microphone"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="https://unsplash.imgix.net/photo-1428908799722-0a74e26ce7f6?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" title="This is the description">
+				<img src="https://unsplash.imgix.net/photo-1428908799722-0a74e26ce7f6?fit=crop&amp;fm=jpg&amp;h=700&amp;q=75&amp;w=1050" alt="" class="image-responsive">
+					<div class="description">
+						<span class="caption">Generous <b>sponsors</b></span> 
+						<span class="camera"><i class="fa fa-coffee"></i></span>
+						<div class="clearfix"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Text Carousel
+	================================================== -->
+<section id="slider" class="parallax section" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTx_UTEBZpuz7qtaW549PnnGhacxa2LS2Q84g&usqp=CAU);">
+<div class="wrapsection">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div id="Carousel" class="carousel slide">
+					<ol class="carousel-indicators">
+						<li data-target="#Carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#Carousel" data-slide-to="1"></li>
+						<li data-target="#Carousel" data-slide-to="2"></li>
+						<li data-target="#Carousel" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<blockquote>
+								<p class="lead">
+									You have not lived today until you have done something for someone who can never repay you.
+								</p>
+								<small>John Bunyan, Marathon</small>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote>
+								<p class="lead">
+									The simplest acts of kindness are by far more powerful then a thousand heads bowing in prayer.
+								</p>
+								<small>Mahatma Gandhi</small>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote>
+								<p class="lead">
+									There is no exercise better for the heart than reaching down and lifting people up.
+								</p>
+								<small>John Holmes, Organizer</small>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote>
+								<p class="lead">
+									Helping people by charity is the most human thing we can do.
+								</p>
+								<small>Oprah Winfrey</small>
+							</blockquote>
+						</div>
+					</div>
+					<a class="left carousel-control" href="#Carousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#Carousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- FAQ
+	================================================== -->
+<section id="faq" class="section" style="background-color: #f2e0c2;">
+<div class="wrapsection">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 sol-sm-12">
+				<div class="maintitle">
+					<h3 class="section-title" style="color: #c3332b;">Frequently Asked <span class="wow bounceInRight">Questions</span></h3>
+					<!--<p class="lead">
+						Sed gravida, tortor in tincidunt sagittis, ligula lacus ultrices justo, sed mattis sem sem ut ex. Ut nunc elit, auctor et quam sit amet, convallis purus.
+					</p>-->
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="faq-block wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0s">
+					<div class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+								How can I join this organization?? </a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse">
+								<div class="panel-body">
+									Kindly Please contact our Membership & Development Team. They will help you with their fullest of abilities.
+									For more details please check the membership section (access to membership tab) of our website.  
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+								What are the benefits of joining this organization? </a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse">
+								<div class="panel-body">
+									AMSA-KG is affiliated to the IFMSA & AMSA-International which are the world's leading medical students organisations.  
+									Hence by joining AMSA-KG you can be assured that you will get plenty of chances to gain knowledge, and clinical exposure through our local health care projects. Apart from this you can get golden opportunities to present yourself on an international platform in terms of professional and research exchange programs. 
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+								How can this organization help us as future health care professionals? </a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="panel-collapse collapse">
+								<div class="panel-body">
+									AMSA-KG envisions to develop a culture of academically
+									competent , global oriented , culturally sensitive students of medicine who can serve as role models in the health profession. Hence through our events and programs you can improve your medical and clinical knowledge, gain experiences and even develop your professional as well as leadership skills. 
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="faq-block wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.1s">
+					<div class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+									With whom we are affiliated? </a>
+								</h4>
+							</div>
+							<div id="collapseSix" class="panel-collapse collapse">
+								<div class="panel-body">
+									AMSA-Kyrgyzstan is affiliated to International Federation Medical Students Association ( IFMSA )  and Asian Medical Students Association-International ( AMSA-International ). Currently AMSA-Kyrgyzstan have Candidate Member Status in IFMSA and Observer Member Status in AMSA-International. 
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+								What are the activities done under this organization? </a>
+								</h4>
+							</div>
+							<div id="collapseFour" class="panel-collapse collapse">
+								<div class="panel-body">
+									The activities we do are according to our focus areas which 
+									ranges from Medical Education, Public Health, Human Rights and Peace, Reproductive health and Rights Including HIV and AIDS. We also aim to work on Student Exchange Programs.
+									Our events can help you to become competent in terms of academics.
+									For More details please visit our activities section of the website (Here give access to  our ACTIVITIES section).
+									
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+								I want to get involved in various Events, how can I Participate in the events?
+								</a>
+								</h4>
+							</div>
+							<div id="collapseFive" class="panel-collapse collapse">
+								<div class="panel-body">
+									We are updating or promoting our activities & events through our Social Media handles and our website. Kindly please follow our Social Media handles for more information and also you can contact our respective Program Coordinators and Membership and Development team. 
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="faq-block wow bounceInDown" data-wow-duration="1.5s" data-wow-delay="0.2s">
+					<div class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+								Who are our Partners?</a>
+								</h4>
+							</div>
+							<div id="collapseSeven" class="panel-collapse collapse">
+								<div class="panel-body">
+									AMSA-KG has its partnership with ISM Edu. Tech. Pvt. Ltd. 
+									and ISM Edutech Pvt. Ltd. is considered as one of the leading education consultants in India having its head office in Gurgaon and 50+ Associate/Agent offices all over India. We also have Agent offices across the globe namely GEORGIA, KYRGYZSTAN, KAZAKHSTAN & TAJIKISTAN.
+									
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+								Which are our Local Member Organisations (LMO)?</a>
+								</h4>
+							</div>
+							<div id="collapseEight" class="panel-collapse collapse">
+								<div class="panel-body">
+									1. International Higher School of Medicine , Bishkek. <br>
+									2. Kyrgyz State Medical Academy , Bishkek. <br> 
+									3. Ala Too International University-Medical Faculty , Bishkek. <br> 
+									4. ISM-IUK Eastern Medical Campus , Bishkek. <br> 
+									5. International Higher School of Medicine , Cholpon Ata (Issyk Kul Campus). <br> 
+									
+								</div>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+								What are our conditions regarding the membership fees ? </a>
+								</h4>
+							</div>
+							<div id="collapseNine" class="panel-collapse collapse">
+								<div class="panel-body">
+									At present AMSA-Kyrgyzstan is not collecting annual membership fees from individual members.  We are collecting annual membership fees from our full member LMOs ( Student Representative Body ) or from the respective university on behalf of their LMO or students. If you want more clarification regarding membership fees then do not hesitate to contact our Membership and Development team.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Random
+	================================================== -->
+<section class="whitecolor parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/5.jpg);">
+<div class="wrapsection">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 sol-sm-12">
+			<div class="maintitle">
+				<h3 class="section-title justtitle">Charity <span class="wow flipInX">&amp; love</span> are the same</h3>
+				<p class="lead bottom0">
+					“In our job, you will never go home at the end of the day thinking that you haven’t done something valuable and important.”
+
+― Suneel Dhand 
+				</p>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+</section>
+<!-- Contact
+	================================================== -->
+<section id="contactarea" class="parallax section" style="background-image: url(http://themepush.com/demo/runcharity/assets/img/map.png);">
+<div class="wrapsection">
+	<div class="parallax-overlay" style="background-color: #22242e;opacity:0.95;"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="maintitle">
+					<h3 class="section-title" style="color: #c3332b;">Get in Touch</h3>
+					<p class="lead" style="color: #f2e0c2;">
+						If you have questions about our events, don't hesitate to send us your message. This is a real working contact form, test it!
+					</p>
+				</div>
+				<form id="contact" name="contact" method="post" class="text-left" style="color: #f2e0c2;">
+					<fieldset>
+						<div class="row">
+							<div class="col-md-4 wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="2s" >
+								<label for="name">Name<span class="required">*</span></label>
+								<input type="text" name="name" id="name" size="30" style="background-color:#f2e0c2;" value="" required/>
+							</div>
+							<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+								<label for="email">Email<span class="required">*</span></label>
+								<input type="text" name="email" id="email" size="30" style="background-color:#f2e0c2;" value="" required/>
+							</div>
+							<div class="col-md-4 wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="2s">
+								<label for="phone">Phone</label>
+								<input type="text" name="phone" id="phone" size="30" style="background-color:#f2e0c2;" value=""/>
+							</div>
+						</div>
+						<div class="wow fadeIn animated" data-wow-delay="0.3s" data-wow-duration="1.5" style="margin-top:15px;">
+							<label for="message">Message<span class="required">*</span></label>
+							<textarea name="message" id="message" style="background-color:#f2e0c2;" required></textarea>
+						</div>
+						<div class="wow fadeIn animated" data-wow-delay="0.3" data-wow-duration="1.5s" style="color: #f2e0c2;">
+							<input id="submit" type="submit" name="submit" value="Send"/>
+						</div>
+					</fieldset>
+				</form>
+				<div id="success">		
+					<p class="contactalert">
+						Your message was sent succssfully! I will be in touch as soon as I can.
+					</p>			
+				</div>
+				<div id="error">			
+					<p class="contactalert">
+						 Something went wrong, try refreshing and submitting the form again.
+					</p>			
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+<!-- Credits 
+=============================================== -->
+<section id="credits" class="text-center" style="background-color: #f2e0c2;">
+	<span class="social wow zoomIn">
+	<a href="https://www.facebook.com/amsakg/"><i class="fa fa-facebook"></i></a>
+	<a href="https://twitter.com/amsa_kg?s=09"><i class="fa fa-twitter"></i></a>
+	<a href="https://instagram.com/amsa.kg?igshid=e2sqfnpdfivk"><i class="fa fa-instagram"></i></a>
+	<a href="https://www.linkedin.com/company/amsa-kg"><i class="fa fa-linkedin"></i></a>
+	</span><br/>
+	AMSA <a href="#">KYRGYZSTAN</a> 
+	
+</section>
+<!-- Bootstrap core JavaScript
+	================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.scrollTo.min.js"></script>
+<script src="assets/js/jquery.localScroll.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/validate.js"></script>
+<script src="assets/js/common.js"></script>
+</body>
